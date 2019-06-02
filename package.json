@@ -1,0 +1,29 @@
+{
+  "name": "react-webpack-codesplitting-playground",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/ChaituKNag/react-webpack-codesplitting-playground.git",
+  "author": "Naga Chaitanya Konada <chaitu.k.nag@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack --mode production",
+    "start": "webpack-dev-server --mode development"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.5",
+    "@babel/plugin-syntax-dynamic-import": "^7.2.0",
+    "@babel/polyfill": "^7.4.4",
+    "@babel/preset-env": "^7.4.5",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.6",
+    "webpack": "^4.32.2",
+    "webpack-cli": "^3.3.2",
+    "webpack-dev-server": "^3.5.1"
+  },
+  "dependencies": {
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-router-dom": "^5.0.0"
+  }
+}
