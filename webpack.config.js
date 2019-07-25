@@ -1,5 +1,10 @@
+const path = require('path');
 
 module.exports = {
+  entry: './src/index.js',
+  output: {
+    path: path.resolve(__dirname, 'public')
+  },
   module: {
     rules: [
       {
@@ -12,10 +17,10 @@ module.exports = {
     ]
   },
   devServer: {
-    contentBase: require('path').join(__dirname, 'dist'),
+    contentBase: require('path').join(__dirname, 'public'),
     compress: true,
     port: 3000,
     hot: true,
-    historyApiFallback: true,
+    historyApiFallback: true
   }
 };
