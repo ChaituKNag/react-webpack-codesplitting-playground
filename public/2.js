@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[2],{26:function(n,e,a){"use strict";a.r(e);var t=a(0),p=a.n(t);e.default=function(){return p.a.createElement("p",null,"Faqs page")}}}]);
